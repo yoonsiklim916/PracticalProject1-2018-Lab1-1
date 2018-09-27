@@ -9,6 +9,11 @@
  */
 package edu.handong.csee.pp1.bigdata.lab1_1; 
 
+
+/**
+ * @author jaech
+ * We are defining a class which is blueprint of our Calculator object.
+ */
 public class Calculator {
 
 	static int countForAnyCompution = 0;
