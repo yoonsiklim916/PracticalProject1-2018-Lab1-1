@@ -24,14 +24,21 @@ public class CalculatorTest {
 		Calculator myCalc = new Calculator();
 		assertEquals(myCalc.subtract(2, 3),-1);
 	}
+	
+	@Test
+	public void testMod() {
+		// TODO Complete this test case
+	}
 
 	@Test
 	public void testMultiply() {
-		// TODO
+		// TODO Complete this test case
 	}
 	
 	@Test
 	public void testDivide() {
-		// TODO
+		Calculator myCalc = new Calculator();
+		assertEquals(myCalc.divide(1, 1),1, 0.00000001);
+		assertEquals(myCalc.divide(2, 0),Double.NaN, 0.00000001);
 	}
 }
