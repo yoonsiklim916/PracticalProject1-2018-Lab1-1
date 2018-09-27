@@ -2,7 +2,12 @@
 /*
  * This is a block comment. You can write comments in multiple lines.
  */
-package edu.handong.csee.pp1.bigdata.lab1_1;
+/* 
+ * Package is a namespace where your related classes and interfaces are grouped.
+ * When you share your program to other developers,
+ * other developers can import the package and can use classes and interfaces in the package
+ */
+package edu.handong.csee.pp1.bigdata.lab1_1; 
 
 public class Calculator {
 
@@ -48,6 +53,11 @@ public class Calculator {
 	int divide(int first, int second) {
 		countForAnyCompution++;
 		return first / second;
+	}
+	
+	int mod(int first, int second) {
+		// TODO implement the body of this method
+		return 0;
 	}
 	
 	static int getCount() {
