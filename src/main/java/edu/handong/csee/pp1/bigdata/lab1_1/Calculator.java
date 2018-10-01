@@ -24,6 +24,8 @@ public class Calculator {
 	// static decides how this variable can be accessed and maintained.
 	// Static variables are shared by all objects crated by this class definition.
 	static int countForAnyCompution = 0;
+	// private member variable is used by only one object can can't be shared by other objects
+	//
 	private int localCount = 0;
 	
 	public static void main(String[] args) {
