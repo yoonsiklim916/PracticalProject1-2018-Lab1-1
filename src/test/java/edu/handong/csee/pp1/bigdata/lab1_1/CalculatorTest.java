@@ -10,6 +10,7 @@ public class CalculatorTest {
 	public void testMain() {
 		String[] args = {"2", "3"};
 		Calculator.main(args);
+		// assertEquals compares the result of an method call with the expected result.
 		assertEquals(Calculator.getCount(),4);
 	}
 	
