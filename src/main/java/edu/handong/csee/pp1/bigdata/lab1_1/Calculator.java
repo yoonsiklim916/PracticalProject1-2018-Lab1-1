@@ -69,6 +69,7 @@ public class Calculator {
 		print("SUB:" , subtract(firstIntArg, secondIntArg));
 		print("MUL:" , multiply(firstIntArg, secondIntArg));
 		print("DIV:" , divide(firstIntArg,secondIntArg));
+		print("MOD:" , modulo(firstIntArg,secondIntArg));
 	}
 
 	
@@ -105,10 +106,9 @@ public class Calculator {
 		return first / second;
 	}
 
-	int mod(int first, int second) {
+	int modulo(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
-		// TODO implement the body of this method
 		return first % second;
 	}
 
