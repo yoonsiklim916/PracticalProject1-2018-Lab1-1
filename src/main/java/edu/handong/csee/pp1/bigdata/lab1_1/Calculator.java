@@ -66,8 +66,8 @@ public class Calculator {
 		localCount = 0;
 
 		print("SUM:" , sum(firstIntArg, secondIntArg));
-		print("SUB:" , this.subtract(firstIntArg, secondIntArg));
-		print("*:" , multiply(firstIntArg, secondIntArg));
+		print("SUB:" , subtract(firstIntArg, secondIntArg));
+		print("MUL:" , multiply(firstIntArg, secondIntArg));
 		print("DV:" , divide(firstIntArg,secondIntArg));
 	}
 
