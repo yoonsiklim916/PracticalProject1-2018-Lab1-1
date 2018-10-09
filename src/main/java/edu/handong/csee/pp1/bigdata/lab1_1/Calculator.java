@@ -106,8 +106,10 @@ public class Calculator {
 	}
 
 	int mod(int first, int second) {
+		countForAnyCompution++;
+		localCount++;
 		// TODO implement the body of this method
-		return 0;
+		return first % second;
 	}
 
 	static int getCount() {
